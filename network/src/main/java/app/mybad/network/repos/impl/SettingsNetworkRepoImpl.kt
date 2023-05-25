@@ -22,7 +22,7 @@ class SettingsNetworkRepoImpl @Inject constructor(
     }
 
     override suspend fun deleteUserModel(id: String) {
-        execute { settingsApiRepo.deleteUserModel(id = id) }
+        execute { settingsApiRepo.deleteUserModel(id = id.toLong()) }
     }
 
     override suspend fun putUserModel(userModel: UserModel) {
