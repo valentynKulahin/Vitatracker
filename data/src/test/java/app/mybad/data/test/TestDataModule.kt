@@ -3,9 +3,6 @@ package app.mybad.data.test
 import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.room.Room
-import app.mybad.data.UserNotificationsDataModel
-import app.mybad.data.UserPersonalDataModel
-import app.mybad.data.UserRulesDataModel
 import app.mybad.data.repos.CoursesRepoImpl
 import app.mybad.data.repos.MedsRepoImpl
 import app.mybad.data.repos.UsagesRepoImpl
